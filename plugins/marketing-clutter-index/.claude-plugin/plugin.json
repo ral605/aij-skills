@@ -2,8 +2,8 @@
   "name": "marketing-clutter-index",
   "version": "1.0.1",
   "description": "Score and coach any social media post, ad, or marketing graphic on visual clutter and caption clarity. Fast, friendly, actionable feedback with a built-in rewrite.",
-  "author": "Rod Leach / SOLV(X)",
-  "skills": [
-    "skills/marketing-clutter-index"
-  ]
+  "author": {
+    "name": "Rod Leach",
+    "url": "https://solvx.com"
+  }
 }
