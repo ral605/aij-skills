@@ -1,21 +1,25 @@
 # aij-skills
 
-Claude Code skills published by [Rod Leach](https://solvx.com) for the AI and Automation Journey community. Practical, battle-tested skills for real business workflows.
+Claude skills for the AI and Automation Journey community. Practical, battle-tested skills for real business workflows.
 
 ---
 
 ## Install
 
-Add this marketplace to Claude Code:
+### Option 1: Claude Desktop App (recommended)
+
+1. Open the Claude desktop app
+2. Go to Settings > Plugins
+3. Click Add > Add marketplace
+4. Paste: `ral605/aij-skills`
+5. Hit Sync
+6. Click any skill card and hit Install
+
+### Option 2: Command line
 
 ```
-/plugin marketplace add ral605/aij-skills
-```
-
-Then install any skill:
-
-```
-/plugin install marketing-clutter-index@aij-skills
+claude plugin marketplace add ral605/aij-skills
+claude plugin install marketing-clutter-index@aij-skills
 ```
 
 ---
@@ -32,16 +36,16 @@ Triggers automatically when you share a post for feedback, ask "is this too busy
 
 ## Updates
 
-To refresh your local copy after skills are updated:
+Skills update automatically on next session. To refresh manually:
 
 ```
-/plugin marketplace update aij-skills
+claude plugin marketplace update aij-skills
 ```
+
+Or in the desktop app: Settings > Plugins > find aij-skills and click Update.
 
 ---
 
 ## About
 
 Part of the [AI and Automation Journey](https://solvx.com) — a practitioner community for people building real AI workflows in their businesses.
-
-Built and maintained by Rod Leach / SOLV(X).
