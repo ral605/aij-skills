@@ -1,14 +1,16 @@
 {
   "name": "aij-skills",
+  "owner": {
+    "name": "Rod Leach",
+    "url": "https://solvx.com"
+  },
+  "version": "1.0.0",
   "description": "Claude Code skills published by Rod Leach / SOLV(X) for the AI and Automation Journey community. Practical, battle-tested skills for real business workflows.",
   "plugins": [
     {
       "name": "marketing-clutter-index",
       "description": "Score and coach any social media post, ad, or marketing graphic on visual clutter and caption clarity. Fast, friendly, actionable feedback with a built-in rewrite.",
-      "source": {
-        "type": "relative",
-        "path": "./plugins/marketing-clutter-index"
-      }
+      "source": "./plugins/marketing-clutter-index"
     }
   ]
 }
